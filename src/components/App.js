@@ -1,8 +1,9 @@
 
 import React,{useState} from "react";
 import './../styles/App.css';
-import Sum from "./sum";
+import Sum from "./Sum";
 const App = () => {
+  let [sum,setSum]=useState(0);
   return (
     <div>
         {/* Do not remove the main div */}
@@ -13,4 +14,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
